@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: Arial, sans-serif;
+}
+
+.logo{
+    position: absolute;
+    height: 50px;
+}
+
+body {
+    max-width: auto;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header, section {
+      padding: 20px;
+      background-color: #f8f8f8;
+    }
+
+    h1, h2, p {
+      color: #333;
+    }
+
+    .mission, .vision {
+      max-width: auto;
+      margin: 0 auto;
+    }
+
+    .about {
+      margin-top: 20px;
+      font-size: 1.1em;
+      max-width: auto;
+    }
+
+    .team {
+      display: inline-flex;
+      gap: 20px;
+      max-width: auto;
+      margin: auto;
+    }
+
+    .team .profile {
+      text-align: center;
+      color: #333;
+    }
+
+    .logo {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+
+.team .images{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding: 1em;
+    margin: 1.5em;
+    display: inline-flex;
+    max-width: auto;
+}
+
