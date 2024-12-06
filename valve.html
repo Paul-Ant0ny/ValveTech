@@ -3,55 +3,84 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <title>Valve Technologies</title>
 </head>
-<body>
-  <header>
-    <div class="logo">
-      <!-- Logo -->
-      <img src="images\logo.jpg" alt="Valve Technologies Logo" width="100">
+<body class="font-sans bg-gray-50 text-gray-800">
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-blue-600 to-blue-500 text-white py-10">
+    <div class="container mx-auto text-center">
+      <div class="logo mb-6">
+        <img src="images/logo.jpg" alt="Valve Technologies Logo" class="mx-auto w-20 h-auto">
+      </div>
+      <h1 class="text-4xl font-extrabold">Welcome to Valve Technologies</h1>
+      <p class="mt-4 text-lg font-light">Your Partner in Innovative and Simple Solutions for Real-World Challenges</p>
     </div>
-    <h1>Welcome to Valve Technologies</h1>
-    <p>Your Partner in Innovative and Simple Solutions for Real-World Challenges</p>
   </header>
 
-  <section class="about">
-    <h2>About Us</h2>
-    <p>Valve Technologies is a dedicated team of tech consultants focused on solving complex challenges with innovative, straightforward solutions. We leverage our diverse expertise to bring clarity, efficiency, and impact to every project.</p>
+  <!-- About Section -->
+  <section class="py-16 px-4">
+    <div class="container mx-auto text-center max-w-4xl">
+      <h2 class="text-3xl font-semibold text-blue-600">About Us</h2>
+      <p class="mt-6 text-gray-700 leading-relaxed">Valve Technologies is a dedicated team of tech consultants focused on solving complex challenges with innovative, straightforward solutions. We leverage our diverse expertise to bring clarity, efficiency, and impact to every project.</p>
+    </div>
   </section>
 
-  <section class="mission">
-    <h2>Our Mission</h2>
-    <p>To empower organizations by delivering innovative technology solutions that are practical, efficient, and tailored to real-world challenges.</p>
+  <!-- Mission Section -->
+  <section class="bg-gray-100 py-16 px-4">
+    <div class="container mx-auto text-center max-w-4xl">
+      <h2 class="text-3xl font-semibold text-blue-600">Our Mission</h2>
+      <p class="mt-6 text-gray-700 leading-relaxed">To empower organizations by delivering innovative technology solutions that are practical, efficient, and tailored to real-world challenges.</p>
+    </div>
   </section>
 
-  <section class="vision">
-    <h2>Our Vision</h2>
-    <p>To become a trusted leader in tech consultancy, known for our expertise, innovation, and commitment to simplifying complex challenges.</p>
+  <!-- Vision Section -->
+  <section class="py-16 px-4">
+    <div class="container mx-auto text-center max-w-4xl">
+      <h2 class="text-3xl font-semibold text-blue-600">Our Vision</h2>
+      <p class="mt-6 text-gray-700 leading-relaxed">To become a trusted leader in tech consultancy, known for our expertise, innovation, and commitment to simplifying complex challenges.</p>
+    </div>
   </section>
 
-  <section class="team">
-    <div class="profile">
-      <img class="images" src="images/arnold.png" alt="Arnold Okatch">
-      <h3>Arnold Okatch - Software Engineer</h3>
-    </div>
-    <div class="profile">
-      <img class="images" src="images/bonke.jpg" alt="Reinhard Odhiambo Bonke">
-      <h3>Reinhard Bonke - Financial Analyst</h3>
-    </div>
-    <div class="profile">
-      <img class="images" src="images/joy.jpg" alt="Risper Joy Achieng">
-      <h3>Risper Joy - AI & Machine Learning Expert</h3>
-    </div>
-    <div class="profile">
-      <img class="images" src="images/tony.jpg" alt="Paul Antony Otieno">
-      <h3>Paul Otieno - Data Analyst</h3>
-    </div>
-    <div class="profile">
-      <img class="images" src="images/wendy.jpg" alt="Wendy Mukami Murithi">
-      <h3>Wendy Mukami - Software Developer</h3>
+  <!-- Team Section -->
+  <section class="bg-gray-100 py-16 px-4">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-semibold text-blue-600 text-center">Meet Our Team</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 mt-12">
+        <div class="profile text-center">
+          <img class="mx-auto w-32 h-32 rounded-full shadow-lg" src="images/arnold.png" alt="Arnold Okatch">
+          <h3 class="mt-4 text-xl font-bold">Arnold Okatch</h3>
+          <p class="text-gray-600">Software Engineer</p>
+        </div>
+        <div class="profile text-center">
+          <img class="mx-auto w-32 h-32 rounded-full shadow-lg" src="images/bonke.jpg" alt="Reinhard Odhiambo Bonke">
+          <h3 class="mt-4 text-xl font-bold">Reinhard Bonke</h3>
+          <p class="text-gray-600">Financial Analyst</p>
+        </div>
+        <div class="profile text-center">
+          <img class="mx-auto w-32 h-32 rounded-full shadow-lg" src="images/joy.jpg" alt="Risper Joy Achieng">
+          <h3 class="mt-4 text-xl font-bold">Risper Joy</h3>
+          <p class="text-gray-600">AI & Machine Learning Expert</p>
+        </div>
+        <div class="profile text-center">
+          <img class="mx-auto w-32 h-32 rounded-full shadow-lg" src="images/tony.jpg" alt="Paul Antony Otieno">
+          <h3 class="mt-4 text-xl font-bold">Paul Otieno</h3>
+          <p class="text-gray-600">Data Analyst</p>
+        </div>
+        <div class="profile text-center">
+          <img class="mx-auto w-32 h-32 rounded-full shadow-lg" src="images/wendy.jpg" alt="Wendy Mukami Murithi">
+          <h3 class="mt-4 text-xl font-bold">Wendy Mukami</h3>
+          <p class="text-gray-600">Software Developer</p>
+        </div>
+      </div>
     </div>
   </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white py-6">
+    <div class="container mx-auto text-center">
+      <p class="text-sm">&copy; 2024 Valve Technologies. All Rights Reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
