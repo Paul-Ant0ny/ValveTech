@@ -14,6 +14,43 @@ html{
 }
 
 body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.logo img {
+  max-width: 100px;
+  height: auto;
+  margin: 0 auto;
+}
+
+section {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.profile {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.profile img {
+  max-width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
+
+body {
     max-width: auto;
       margin: 0;
       padding: 0;
